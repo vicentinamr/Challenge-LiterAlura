@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: book-catalog
+  datasource:
+    url: jdbc:postgresql://localhost:5432/literalura
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
